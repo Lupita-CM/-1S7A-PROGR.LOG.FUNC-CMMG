@@ -19,8 +19,8 @@ module FizzBuzz where
     number :: Int -> String 
     number n 
      | n `mod` 3 == 0 && n `mod` 5 == 0 = "FizzBuzz!"
-     | n `mod` 3 == 0 = "Fizz!"
-     | n `mod` 5 == 0 = "Buzz!"
+     | n `mod` 5 == 0 = "Fizz!"
+     | n `mod` 3 == 0 = "Buzz!"
      | 1 <= n && n< 20 = lessThan20 (n) ++"!"
      | n `mod` 10 == 0 && n < 100 = tens(n `div` 10) ++"!"
      | n < 100 = tens(n `div` 10) ++ " " ++ lessThan20(n `mod` 10) ++"!"
