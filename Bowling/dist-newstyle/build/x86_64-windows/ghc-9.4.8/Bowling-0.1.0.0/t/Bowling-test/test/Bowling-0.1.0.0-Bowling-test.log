@@ -1,0 +1,17 @@
+Test suite Bowling-test: RUNNING...
+Bowling tests
+  toFrames
+    zeros are open 0 0:          OK
+    ones are open 1 1:           OK
+    4+5s are open 4 5:           OK
+    spares in non last position: OK
+    spare in last position:      OK
+    strike in non last position: OK
+    strike in last position:     OK
+    ill formed play:             OK
+  score
+    spec example:                OK
+
+All 9 tests passed (0.01s)
+Test suite Bowling-test: PASS
+Test suite logged to: D:\ProgLogica\Bowling\dist-newstyle\build\x86_64-windows\ghc-9.4.8\Bowling-0.1.0.0\t\Bowling-test\test\Bowling-0.1.0.0-Bowling-test.log
